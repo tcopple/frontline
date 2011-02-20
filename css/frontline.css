@@ -1,0 +1,38 @@
+#header {
+  height: 90px;
+}
+
+#nav { 
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  float: right;
+  text-align: left;
+  margin: 35px 0px 0px 0px;
+  padding: 10px;
+}
+
+#content {
+  height: 400px;
+  background: #000;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+#content #videos {
+  height: inherit;
+  float: right; 
+  display: inline;
+  border: 1px solid #666;
+  width: 720px;
+}
+
+#content #promos {
+  width: 190px;
+  border: 1px solid #666;
+  height: inherit;
+  float: left; 
+  display: inline;
+}
+
+#footer {
+}

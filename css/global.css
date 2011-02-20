@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html {
+}
+
+body {
+  background: url("../images/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px 0px 0px 0px;
+  color: #aaa;
+  font-family: "Arial", "Tahoma", "MS Sans Serif", sans-serif;
+  text-align: left;
+}
+
+.clear { clear:both; } 
+.right { float: right; } 
+.left { float: left; }
+.seperator { width: 20px; }
+
+h1 { font-size: 2.2em; } 
+h2 { font-size: 2.0em; } 
+h3 { font-size: 1.8em; } 
+h4 { font-size: 1.6em; } 
+h5 { font-size: 1.4em; } 
+p { font-size: 1.2em; }
+
+input.text { 
+  padding: 3px; 
+  border: 1px solid #999999;     
+}
+
+a {
+  color: #fece1f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
