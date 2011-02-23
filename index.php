@@ -8,15 +8,20 @@
   <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
   <script type="text/javascript" src="js/superfish.js"></script>
   <script type="text/javascript" src="js/frontline.js"></script>
+  <script type="text/javascript" src="js/vimeo_gallery.js"></script>
 </head>
 <body>
   <div class="container_16">
     <?php include("layouts/header.php")?>
     <div class="grid_16">
       <div id="content">
-        <div id="promos"></div>
+        <div id="promos">sssshhhh.... dont' tell anyone we're testing our site with their content... :)</div>
         <div class="seperator"></div>
-        <div id="videos"></div>
+        <div id="videos">
+            <video width=720 height=402 src="../videos/video1.m4v" poster="http://cdn.marshillchurch.org/files/2010/11/21/20101121_west-seattle_poster_img.jpg" controls="">1</video>
+            <video width=720 height=402 src="../videos/video1.m4v" poster="http://cdn.marshillchurch.org/files/2010/11/28/20101128_best-of-how-human-was-jesus_poster_img.jpg" controls="" >2</video>
+            <video width=720 height=402 src="../videos/video1.m4v" poster="http://cdn.marshillchurch.org/files/2010/11/21/20101121_ministry-marriage-and-mistakes_poster_img.jpg" controls="">3</video>
+        </div>
       </div>
     </div>
     <div class="clear" style="height: 25px;"></div>
