@@ -11,14 +11,14 @@ body {
   background-size: cover;
   padding: 20px 0px 0px 0px;
   color: #aaa;
-  font-family: "Arial", "Tahoma", "MS Sans Serif", sans-serif;
+  font-family: "HelveticaNeue-Roman", "Helvetica 55 Roman", Helvetica, Arial, sans-serif;
   text-align: left;
 }
 
 .clear { clear:both; } 
 .right { float: right; } 
 .left { float: left; }
-.seperator { width: 20px; }
+.seperator { width: 20px; float: left; }
 
 h1 { font-size: 2.2em; } 
 h2 { font-size: 2.0em; } 

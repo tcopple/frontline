@@ -5,48 +5,81 @@
 	padding:		0;
 	list-style:		none;
 }
-.sf-menu {
-	line-height:	1.0;
+
+.sf-menu a {
+	display:		block;
+	position:		relative;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 10px 3px;
 }
+
+.sf-menu a:hover {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000); /* For IE 5.5 - 7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)"; /* For IE 8*/
+}
+
 .sf-menu ul {
-	position:		absolute;
-	top:			-999em;
-	width:			10em; /* left offset of submenus need to match (see below) */
+  font-size: .8em; /*fallback*/
+  border: 1px inset #999;
+	position:	absolute;
+  width: 10em;
+	top: -999em;
 }
+
+.sf-menu ul a {
+  border: none;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000); /* For IE 5.5 - 7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)"; /* For IE 8*/
+}
+
+.sf-menu .active {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); 
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000); /* For IE 5.5 - 7*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)"; /* For IE 8*/
+}
+
 .sf-menu ul li {
-	width:			100%;
+	width: 100%;
+}
+
+.sf-menu li {
+	float:			left;
+	position:		relative;
 }
 
 .sf-menu li:hover {
 	visibility:		inherit; /* fixes IE7 'sticky bug' */
 }
-.sf-menu li {
-	float:			left;
-	position:		relative;
-}
-.sf-menu a {
-	display:		block;
-	position:		relative;
-}
+
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
 	left:			0;
-	top:			1em; /* match top ul list item height */
+	top:			44px; /* match top ul list item height */
 	z-index:		99;
 }
+
 ul.sf-menu li:hover li ul,
 ul.sf-menu li.sfHover li ul {
 	top:			-999em;
 }
+
 ul.sf-menu li li:hover ul,
 ul.sf-menu li li.sfHover ul {
 	left:			10em; /* match ul width */
 	top:			0;
 }
+
 ul.sf-menu li li:hover li ul,
 ul.sf-menu li li.sfHover li ul {
 	top:			-999em;
 }
+
 ul.sf-menu li li li:hover ul,
 ul.sf-menu li li li.sfHover ul {
 	left:			10em; /* match ul width */

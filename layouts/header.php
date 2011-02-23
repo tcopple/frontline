@@ -5,9 +5,9 @@
         <img src="images/logo.png"></img>
       </a>
     </div>
-    <li class="grid_2">&nbsp</li>
+    <li class="grid_1">&nbsp</li>
     <ul id="nav" class="sf-menu">
-      <li class="grid_2 "><div class="subnav">New Here?
+      <li class="grid_3"><a href="#">New Here?</a>
       <ul>
         <li><a href="#">Welcome</a></li>
         <li><a href="#">The Gospel</a></li>
@@ -16,7 +16,7 @@
         <li><a href="#">What We Believe</a></li>
         <li><a href="#">Fronline Ministries</a></li>
       </ul>
-      </div></li>
+      </li>
       <li class="grid_3"><a href="#">When & Where</a>
       <ul>
         <li><a href="#">Community Groups</a></li>

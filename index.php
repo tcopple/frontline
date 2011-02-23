@@ -19,6 +19,22 @@
         <div id="videos"></div>
       </div>
     </div>
+    <div class="clear" style="height: 25px;"></div>
+    <div class="grid_16">
+      <div id="info">
+        <div class="box">
+        <div class="feed">test</div>
+        </div>
+        <div style="width:50px; float: left;">&nbsp</div>
+        <div class="box">
+        <div class="feed">test</div>
+        </div>
+        <div style="width:50px; float: left;">&nbsp</div>
+        <div class="box">
+        <div class="feed">test</div>
+        </div>
+      </div>
+    </div>
     <div class="clear"></div>
     <?php include("layouts/footer.php")?>
   </div>
