@@ -23,7 +23,7 @@
 
 .sf-menu ul {
   font-size: .8em; /*fallback*/
-  border: 1px inset #999;
+  border: 1px solid #999;
 	position:	absolute;
   width: 10em;
 	top: -999em;
@@ -60,7 +60,7 @@
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
 	left:			0;
-	top:			44px; /* match top ul list item height */
+	top:			37px; /* match top ul list item height */
 	z-index:		99;
 }
 

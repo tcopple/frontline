@@ -1,13 +1,13 @@
 <div class="grid_16">
   <div id="header" >
-    <div class="grid_4 alpha">
+    <div class="grid_5 alpha">
       <a href="www.frontlinecitychurch.com">
         <img src="images/logo.png"></img>
       </a>
     </div>
     <li class="grid_1">&nbsp</li>
     <ul id="nav" class="sf-menu">
-      <li class="grid_3"><a href="#">New Here?</a>
+      <li class="grid_2"><a href="#">New Here?</a>
       <ul>
         <li><a href="#">Welcome</a></li>
         <li><a href="#">The Gospel</a></li>
