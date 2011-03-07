@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: url("../images/bg.jpg");
+  background: url("/images/bg.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,7 @@ body {
 .clear { clear:both; } 
 .right { float: right; } 
 .left { float: left; }
-.seperator { width: 20px; float: left; }
+.seperator { width: 20px; float: left; height: 1px; }
 
 h1 { font-size: 2.2em; } 
 h2 { font-size: 2.0em; } 

@@ -1,5 +1,4 @@
 
-/*** ESSENTIAL STYLES ***/
 .sf-menu, .sf-menu * {
 	margin:			0;
 	padding:		0;
@@ -15,10 +14,7 @@
 }
 
 .sf-menu a:hover {
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.3); 
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000); /* For IE 5.5 - 7*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000)"; /* For IE 8*/
+  border: 1px solid #999;
 }
 
 .sf-menu ul {
@@ -31,17 +27,11 @@
 
 .sf-menu ul a {
   border: none;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6); 
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000); /* For IE 5.5 - 7*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)"; /* For IE 8*/
+  background: #000;
 }
 
-.sf-menu .active {
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.6); 
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000); /* For IE 5.5 - 7*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)"; /* For IE 8*/
+.sf-menu ul a:hover {
+  background: #000;
 }
 
 .sf-menu ul li {
@@ -60,7 +50,7 @@
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
 	left:			0;
-	top:			37px; /* match top ul list item height */
+	top:			39px; /* match top ul list item height */
 	z-index:		99;
 }
 
