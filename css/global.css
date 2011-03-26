@@ -5,12 +5,13 @@ html {
 
 body {
   background: url("/images/bg.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+  -moz-background-size: cover;
+
   padding: 20px 0px 0px 0px;
-  color: #aaa;
+  color: #fff;
   font-family: "HelveticaNeue-Roman", "Helvetica 55 Roman", Helvetica, Arial, sans-serif;
   text-align: left;
 }
@@ -18,14 +19,35 @@ body {
 .clear { clear:both; } 
 .right { float: right; } 
 .left { float: left; }
-.seperator { width: 20px; float: left; height: 1px; }
+.seperator { width: 10px; float: left; height: 1px; }
+.shadow { 
+  -moz-box-shadow: 5px 5px 8px #000;
+	-webkit-box-shadow: 5px 5px 8px #000;
+	box-shadow: 5px 5px 8px #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
 
-h1 { font-size: 2.2em; } 
-h2 { font-size: 2.0em; } 
-h3 { font-size: 1.8em; } 
-h4 { font-size: 1.6em; } 
-h5 { font-size: 1.4em; } 
-p { font-size: 1.2em; }
+h1 { font-size: 2.0em; line-height: 2.0em; } 
+h2 { font-size: 1.8em; line-height: 1.8em; } 
+h3 { font-size: 1.6em; line-height: 1.6em; } 
+h4 { font-size: 1.4em; line-height: 1.4em; } 
+h5 { font-size: 1.2em; line-height: 1.2em; } 
+h6 { font-size: 0.8em; } 
+.inline1 { font-size: 2.0em; line-height: 2.0em; } 
+.inline2 { font-size: 1.8em; line-height: 1.8em; } 
+.inline3 { font-size: 1.6em; line-height: 1.6em; } 
+.inline4 { font-size: 1.4em; line-height: 1.4em; } 
+.inline5 { font-size: 1.2em; line-height: 1.2em; } 
+.inline6 { font-size: 0.8em; } 
+p { font-size: 1.0em; line-height: 1.0em; }
+
+blockquote { padding: 5px 20px; font-style: italic;}
+.italic { font-style: italic; }
+
+.red { color: #c22e2e; font-weight: bolder; }
+.yellow { color: #fece1f; font-weight: bolder; }
+.scripture { color: #ccc; }
 
 input.text { 
   padding: 3px; 

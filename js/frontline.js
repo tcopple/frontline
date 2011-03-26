@@ -5,4 +5,7 @@ $(document).ready(function() {
     autoArrows: false,
     dropShadows: true
   });
+
+  $('.scripture').scriptureLink();
 });
+

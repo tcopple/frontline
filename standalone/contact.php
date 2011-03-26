@@ -4,9 +4,9 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">Calendar</h3>
+    <h3 class="yellow">Contact Us</h3>
     <p>
-      Church calendar coming soon. 
+      Contact information still to come.
     </p>
   </div>
 </div>

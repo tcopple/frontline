@@ -14,7 +14,7 @@
         <li><a href="/new_here/who.php">Who We Are</a></li>
         <li><a href="/new_here/why.php">Why We Exist</a></li>
         <li><a href="/new_here/what.php">What We Believe</a></li>
-        <li><a href="/new_here/frontline.php">Fronline Ministries</a></li>
+        <li><a href="/new_here/values.php">What We Value</a></li>
       </ul>
       </li>
       <li class="grid_3"><a href="#">When & Where</a>
@@ -31,8 +31,8 @@
         <li><a href="http://itunes.apple.com/us/podcast/frontline-city-church/id416154894?ign-mpt=uo%3D4">Videos</a></li>
       </ul>
       </li>
-      <li class="grid_2"><a href="#">Give</a></li>
-      <li class="grid_2 omega"><a href="#">Contact</a></li>
+      <li class="grid_2"><a href="/standalone/give.php">Give</a></li>
+      <li class="grid_2 omega"><a href="/standalone/contact.php">Contact</a></li>
     </ul>
   </div>
 </div>

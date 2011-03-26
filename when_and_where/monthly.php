@@ -2,5 +2,12 @@
   include_once("../utilities.php"); 
   start(); 
 ?>
-Monthly gatherings are good.
+<div id="page_content" class="shadow">
+  <div id="text" >
+    <h3 class="yellow">Monthly</h3>
+    <p>
+      Monthing gathering information coming soon.
+    </p>
+  </div>
+</div>
 <?php stop(); ?>
