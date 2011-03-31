@@ -44,9 +44,10 @@ p { font-size: 1.0em; line-height: 1.0em; }
 
 blockquote { padding: 5px 20px; font-style: italic;}
 .italic { font-style: italic; }
+.bold { font-weight: bold; }
 
-.red { color: #c22e2e; font-weight: bolder; }
-.yellow { color: #fece1f; font-weight: bolder; }
+.red { color: #c22e2e; }
+.yellow { color: #fece1f; }
 .scripture { color: #ccc; }
 
 input.text { 

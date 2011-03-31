@@ -92,8 +92,13 @@
 }
 
 #info .box .feed {
-  width: 100%;
   padding: 5%;
+}
+
+ul#tweets  {
+  width: 100%;
+  font-size: 1em;
+  display: block;
 }
 
 #footer {

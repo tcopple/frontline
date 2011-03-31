@@ -4,7 +4,7 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">Give</h3>
+    <h3 class="yellow bold">Give</h3>
     <p>
       Online giving coming soon.
     </p>

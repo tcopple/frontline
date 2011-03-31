@@ -4,7 +4,7 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">Community</h3>
+    <h3 class="yellow bold">Community</h3>
     <p>
       Information about community groups still to come. 
     </p>

@@ -4,7 +4,7 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">Our Values</h3>
+    <h3 class="yellow bold">Our Values</h3>
     Our community holds certain values as central to who we are and what God has called us to do.  Here are some key values that we seek to embody.
     <br>
     <br>

@@ -4,7 +4,7 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">The Gospel</h3>
+    <h3 class="yellow bold">The Gospel</h3>
     <blockquote>"Now I would remind you, brothers, of the gospel I preached to you, 
       which you received, in which you stand, and by which you are being saved, 
       if you hold fast to the word I preached to you -- unless you believed in vain. 

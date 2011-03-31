@@ -4,14 +4,14 @@
 ?>
 <div id="page_content" class="shadow">
   <div id="text" >
-    <h3 class="yellow">What We Believe</h3>
+    <h3 class="yellow bold">What We Believe</h3>
     Frontline City Church is a Christian church.  We follow Jesus, teach the Bible, and seek to honor God in all things.  
     <br>
     <br>
 
-    <h5 class="red">The Scriptures</h5>
+    <h5 class="red bold">The Scriptures</h5>
     <p>
-    The Bible is God's Word to all people. It was written by human authors under the supernatural guidance of the Holy Spirit. Because it was inspired by God, the Bible is truth without any mixture of error and is completely relevant to our daily lives.  
+    The Bible is God's Word to all people. It was written by human authors under the supernatural guidance of the Holy Spirit. Because it was inspired bold by God, the Bible is truth without any mixture of error and is completely relevant to our daily lives.  
     <span class="inline6 italic">
       <span class="scripture">Deuteronomy 4:1-2;</span> 
       <span class="scripture">Psalms 119:11; 119:89; 119:105;</span>
@@ -27,7 +27,7 @@
     </p>
     <br>
 
-    <h5 class="red">The Godhead</h5>
+    <h5 class="red bold">The Godhead</h5>
     <p>
     God has existed in relationship with Himself for all eternity. He exists as one substance in three persons: the Father, the Son and the Holy Spirit. Although each member of the Trinity serves different functions, they each possess equal power and authority. 
     <span class="inline6 italic">
@@ -46,7 +46,7 @@
     </p>
     <br>
 
-    <h5 class="red">God the Father</h5>
+    <h5 class="red bold">God the Father</h5>
     <p>
     God is great: He is all powerful, all knowing, ever present, unchanging, completely worthy of our trust, and He is holy. It is in Him that we live, move, and exist. God is good: He is our Father. He is loving, compassionate, and faithful to His people and His promises. 
     <span class="inline6 italic">
@@ -62,7 +62,7 @@
     </p>
     <br>
 
-    <h5 class="red">God the Son</h5>
+    <h5 class="red bold">God the Son</h5>
     <p>
     Jesus Christ is completely human, but at the same time completely God. He is the only plan for bringing people who are enemies of God back into a right relationship with God. He lived a perfect life so that He could be a substitution for us in satisfying God's demands for perfection. He defeated death in His resurrection so that we could have life. 
     <span class="inline6 italic">
@@ -82,7 +82,7 @@
     </p>
     <br>
 
-    <h5 class="red">God the Holy Spirit</h5>
+    <h5 class="red bold">God the Holy Spirit</h5>
     <p>
     His presence assures us of our relationship with Christ. He guides believers into all truth and exalts Christ. He convicts people of their sin, God's righteousness, and the coming judgment. He comforts us, gives us spiritual gifts, and makes us more like Christ. 
     <span class="inline6 italic">
@@ -103,7 +103,7 @@
     </p>
     <br>
 
-    <h5 class="red">Heaven and Hell</h5>
+    <h5 class="red bold">Heaven and Hell</h5>
     <p>
     Man was created to exist forever. He will either exist eternally separated from God by sin or in union with God through forgiveness and salvation. To be eternally separated from God is Hell. To be eternally in union with Him is eternal life. Heaven and Hell are places of eternal existence. 
     <span class="inline6 italic">
@@ -115,7 +115,7 @@
     </p>
     <br>
 
-    <h5 class="red">Human Beings</h5>
+    <h5 class="red bold">Human Beings</h5>
     <p>
     Man is made in the image of God and is the supreme object of His creation. Man was created to have fellowship with God but became separated in that relationship through sinful disobedience. As a result, man cannot attain a right relationship with God through his own effort. Every human personality is uniquely created, possesses dignity, and is worthy of respect and Christian love. 
     <span class="inline6 italic">
@@ -132,7 +132,7 @@
     </p>
     <br>
 
-    <h5 class="red">Salvation</h5>
+    <h5 class="red bold">Salvation</h5>
     <p>
     The blood of Jesus Christ, shed on the cross, provides the only way of salvation through the forgiveness of sin. Salvation occurs when people place their faith in the death and resurrection of Christ as sufficient payment for their sin. Salvation is a gift from God, and it cannot be earned through our own efforts.  The victorious work of Jesus on the cross provides freedom from sin, lies, sickness, torment and all the power of the devil.  
 
@@ -154,7 +154,7 @@
     </p>
     <br>
 
-    <h5 class="red">The Church</h5>
+    <h5 class="red bold">The Church</h5>
     <p>
     The global Church is a living organism made up of all born again followers of Christ from every age, race, and nation.  The local church is a regional community of baptized believers unified through faith in Christ. It is committed to the teachings of Christ, to obeying all of His commands, and it seeks to bring the gospel to the world. The Church works together in love and unity, intent on the ultimate purpose of glorifying Christ. 
     <span class="inline6 italic">
