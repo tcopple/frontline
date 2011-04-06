@@ -2,13 +2,15 @@
 function start($include = "", $title = "frontline city church") {
   chdir(($_SERVER['DOCUMENT_ROOT']));
 ?>
+<!DOCTYPE HTML>
+<html>
   <head>
     <title> <?php echo $title; ?></title>
-    <link rel="stylesheet" type="text/css" href="/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="/css/global.css" />
-    <link rel="stylesheet" type="text/css" href="/css/frontline.css" />
-    <link rel="stylesheet" type="text/css" href="/css/superfish.css" />
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/css/global.css">
+    <link rel="stylesheet" type="text/css" href="/css/frontline.css">
+    <link rel="stylesheet" type="text/css" href="/css/superfish.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
     <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="/js/jquery.scriptureLink.js"></script>
@@ -24,7 +26,7 @@ function start($include = "", $title = "frontline city church") {
       <div id="promos">
         <a href="/when_and_where/community.php"><img class="promo" src="/images/community.jpg"></img></a>
         <a href="/when_and_where/monthly.php"><img class="promo" src="/images/monthly.jpg"></img></a>
-        <a href="/new_here/welcome.php"><img class="promo" src="/images/story.jpg"></img></a>
+        <a href="/new_here/story.php"><img class="promo" src="/images/story.jpg"></img></a>
       </div>
       <div id="buttons">
       <a href="/when_and_where/weekly.php" class="button">Service Time</a>
@@ -43,4 +45,5 @@ function stop() { ?>
   <div class="clear" style="height: 15px;"></div>
   </div> <!-- closing "container_16" -->
   </body>
+</html>
 <?php } ?>

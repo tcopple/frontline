@@ -88,7 +88,7 @@
   width: 280px;
   float: left;
   display: inline;
-  min-height: 200px;
+  height: 500px;
 }
 
 #info .box .feed {
@@ -103,7 +103,7 @@ ul#tweets  {
 
 #footer {
   width: 100%;
-  padding: 10px 0px;
+  padding: 0px 0px;
   font-size: .8em;
   display: block;
 }
@@ -124,9 +124,13 @@ ul#tweets  {
   width: 720px;
   float: left; 
   background: #111;
-  background: rgba(1, 1, 1, 0.7);
+  background: rgba(1, 1, 1, 0.85);
 }
 
 #page_content #text {
   padding: 10px;
+}
+
+.indent { 
+  padding-left: 25px;
 }

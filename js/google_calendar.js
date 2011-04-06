@@ -109,8 +109,7 @@ function listEvents(feedRoot) {
   /* create a new unordered list */
   var ul = document.createElement('ul');
   /* set the calendarTitle div with the name of the calendar */
-  document.getElementById('calendarTitle').innerHTML = 
-    "Calendar: " + feedRoot.feed.title.$t;
+
   /* loop through each event in the feed */
   var len = entries.length;
   for (var i = 0; i < len; i++) {
