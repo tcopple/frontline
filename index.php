@@ -5,19 +5,7 @@
   ); 
 ?>
   <div id="videos" class="shadow">
-    <?php
-      //Build video links from available files in videos directory.
-      foreach (glob("videos/*.m4v") as $video) {
-        $tag = "<video width=\"720px\" height=\"402px\" src=\"$video\" ";
-        $poster = str_replace("m4v", "jpg", $video);
-
-        if(file_exists($poster))
-          $tag .= "poster=\"$poster\" ";
-
-        $tag .= "controls></video>";
-        echo $tag; 
-      }
-    ?>
+    <iframe src="http://player.vimeo.com/video/20530535?title=0&amp;byline=0&amp;portrait=0" width="711" height="400" frameborder="0"></iframe>
   </div>
 </div>
   <?php include("layouts/footer.php") ?>
