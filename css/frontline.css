@@ -123,9 +123,14 @@ ul#tweets  {
   border: 1px solid #999;
   display: block;
   width: 720px;
+  min-height: 400px;
   float: left; 
   background: #111;
   background: rgba(1, 1, 1, 0.85);
+}
+
+#page_content img {
+  padding: 0px 15px;
 }
 
 #page_content #text {

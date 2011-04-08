@@ -19,6 +19,10 @@ body {
 .clear { clear:both; } 
 .right { float: right; } 
 .left { float: left; }
+.inline { display: inline; }
+.block { display: block; }
+.center { text-align: center; }
+.middle { vertical-align: middle; }
 .seperator { width: 10px; float: left; height: 1px; }
 .shadow { 
   -moz-box-shadow: 5px 5px 8px #000;
