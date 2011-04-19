@@ -6,7 +6,7 @@ start();
 <!-- this page is absolutely awful but the information given was not very workable
      and it shouldn't be up more than a few months, that's why everything is inlined -->
 
-<div id="page_content" class="shadow">
+<div id="page_content" class="grid_12 omega shadow">
   <div id="text" >
     <h3 class="yellow bold">Monthly</h3>
     <p>

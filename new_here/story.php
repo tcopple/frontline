@@ -2,7 +2,7 @@
   include_once("../utilities.php"); 
   start(); 
 ?>
-<div id="page_content" class="shadow">
+<div id="page_content" class="grid_12 omega shadow">
   <div id="text" >
     <h3 class="yellow bold">Our Story</h3>
     In 2001 Pastor Rick Rocco had a dream to launch a church called Frontline to reach a generation.  Over the coming months and years that dream became a reality as a handful of young leaders started a church and saw it grow.  Justin Kendrick was one of the members of that original team and felt a call from God to continue to pursue Christian ministry.  In 2004, Justin and his wife Chrisy launched Holyfire Ministries full time and began to travel throughout the country and abroad.  Their purpose was simple: to capture the heart of this generation and ignite authentic Christianity.  

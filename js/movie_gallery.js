@@ -16,6 +16,13 @@ $(document).ready( function() {
   $('#videos video:gt(0)').hide();
   signal_slideshow(); 
 
+  $('video').bind("play", function(e) {
+    signal_slideshow();
+  });
+
+  $('video').bind("pause", function(e) {
+    signal_slideshow();
+  });
 });
 
 function slideshow() {

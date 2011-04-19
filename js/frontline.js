@@ -3,13 +3,6 @@ var tweets = 3;
 var tweet = 1;
 
 $(document).ready(function() {
-	$('ul.sf-menu').superfish({ 
-    hoverClass: "active",
-    delay: 8000,
-    autoArrows: false,
-    dropShadows: true
-  });
-
   $('.scripture').scriptureLink();
 
   fetch_tweets('fl_citychurch', 3, 1);
