@@ -1,0 +1,73 @@
+/* remove the list style */
+ul#nav {
+  margin: 35px 0px 0px 0px; 
+  list-style:none;
+  float: right;
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  width: 625px;
+}
+
+/* make the LI display inline */
+/* it's position relative so that position absolute */
+/* can be used in submenu */
+ul#nav li {
+  float:left; 
+  display:block; 
+  position:relative;
+  z-index:500; 
+  padding: 5px 25px;
+}
+
+/* this is the parent menu */
+ul#nav li a {
+  display:block; 
+  text-decoration:none; 
+}
+
+ul#nav li a:hover{ 
+  color: #fff;
+}
+
+ul#nav li:hover {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* you can make a different style for default selected value */
+ul#nav a.selected {
+}
+
+/* submenu, it's hidden by default */
+ul#nav ul {
+  display: none; 
+  position: absolute; 
+  left: -1px;
+  top: 26px;
+  list-style:none;
+  border-top: 1px solid #999;
+}
+
+ul#nav ul li {
+  width: 100%;
+  text-align: left;
+  float: left; 
+  padding: 5px 25px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+ul#nav ul li:hover {
+  border: none;
+}
+
+/* display block will make the link fill the whole area of LI */
+ul#nav ul a {
+  display:block;  
+}
+
+ul#nav ul a:hover {
+  color: #fff;
+}
