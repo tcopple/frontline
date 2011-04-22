@@ -119,8 +119,14 @@ ul#tweets  {
 }
 
 #page_content #text {
+  line-height: 125%;
   padding: 10px;
 }
+
+#page_content #text p {
+  line-height: 125%;
+}
+
 
 .indent { 
   padding-left: 25px;

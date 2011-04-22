@@ -13,7 +13,9 @@ function start($include = "", $title = "frontline city church") {
     <link rel="stylesheet" type="text/css" href="/css/dropdown.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
     <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.8.11.custom.min.js"></script>
     <script type="text/javascript" src="/js/jquery.scriptureLink.js"></script>
+    <script type="text/javascript" src="/js/jquery.jgfeed.js"></script>
     <script type="text/javascript" src="/js/frontline.js"></script>
     <script type="text/javascript" src="/js/frontline.dropdown.js"></script>
     <?php echo $include; ?>

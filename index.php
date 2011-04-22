@@ -27,6 +27,8 @@ foreach (glob("videos/*.m4v") as $video) {
     <div class="box shadow">
       <div class="feed">
         <h4 class="yellow">blog</h4>
+        <ul id="blogs">
+        </ul>
       </div>
     </div>
     <div style="width:50px; float: left;">&nbsp</div>
