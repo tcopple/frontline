@@ -115,7 +115,8 @@ ul#tweets  {
 }
 
 #page_content img {
-  padding: 0px 15px;
+  margin: 0px 15px;
+  border: 1px solid #999;
 }
 
 #page_content #text {

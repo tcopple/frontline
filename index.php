@@ -7,45 +7,8 @@
   ); 
 ?>
 <div id="videos" class="grid_12 omega shadow ">
-<?php
-//Build video links from available files in videos directory.
-foreach (glob("videos/*.m4v") as $video) {
-  $tag = "<video width=\"700px\" src=\"$video\" ";
-  $poster = str_replace("m4v", "jpg", $video);
+<iframe src="http://player.vimeo.com/video/24923245?title=0&amp;byline=0&amp;portrait=0" width="700" height="392" frameborder="0"></iframe>
 
-  if(file_exists($poster))
-    $tag .= "poster=\"$poster\" ";
-
-  $tag .= "controls></video>";
-  echo $tag; 
-}
-?>
-</div>
-</div>
-<div class="clear" style="height: 25px;"></div>
-<div class="grid_16" id="info">
-    <div class="box shadow">
-      <div class="feed">
-        <h4 class="yellow">blog</h4>
-        <ul id="blogs">
-        </ul>
-      </div>
-    </div>
-    <div style="width:50px; float: left;">&nbsp</div>
-    <div class="box shadow">
-      <div class="feed">
-        <h4 class="yellow">twitter</h4>
-        <ul id="tweets">
-        </ul>
-      </div>
-    </div>
-    <div style="width:50px; float: left;">&nbsp</div>
-    <div class="box shadow">
-      <div class="feed">
-        <h4 class="yellow">calendar</h4>
-        <div id="events"></div>
-      </div>
-    </div>
 </div>
 <div class="clear" style="height: 5px;"></div>
 <?php include("layouts/footer.php") ?>

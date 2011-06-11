@@ -5,19 +5,6 @@ var tweet = 1;
 $(document).ready(function() {
   $('.scripture').scriptureLink();
 
-  fetch_tweets('fl_citychurch', 3, 1);
-
-  $.jGFeed('http://feeds.feedburner.com/agenerationtransformed',
-    function(feeds){
-      if(!feeds) {
-        return false;
-      }
-
-      $.each(feeds.entries, function(i, post) {
-        var dte = new Date(post.publishedDate);
-        $("<li />").html($.datepicker.formatDate("d M yy", dte) + " - " + post.title + " - ").appendTo($("ul#blogs"));
-      });
-    }, 10);
 });
 
 function fetch_tweets(handle, count, page) {

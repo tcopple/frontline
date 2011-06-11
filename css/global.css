@@ -22,6 +22,8 @@ body {
 .inline { display: inline; }
 .block { display: block; }
 .center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
 .middle { vertical-align: middle; }
 .seperator { width: 10px; float: left; height: 1px; }
 .shadow { 
@@ -58,6 +60,7 @@ input.text {
   padding: 3px; 
   border: 1px solid #999999;     
 }
+
 
 a {
   color: #fece1f;
