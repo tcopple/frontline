@@ -13,7 +13,7 @@ start();
       </div>
       <div class="inline middle">
         <h5>Jeremiah & Teresa LaCoille</h5>
-        <div>Tuesdays @ 7pm (24 Pardee Pl., New Haven)</div>
+        <div>Tuesdays @ 7pm (24 Dayton St., New Haven)</div>
         <div style="height: 15px;"></div>
         <div>Jeremiah and Teresa have a heart to see people find a place of sustained continued growth in their personal walks with God and are focused on encouraging people to live out loud in all different occupations and walks of life.</div>
         <div style="height: 15px;"></div>
