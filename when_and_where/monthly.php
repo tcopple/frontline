@@ -27,7 +27,6 @@ start();
     </div>
 
     <div class="clear" style="height: 7px;"></div>
-    <div style="height: 1px; border: 1px solid #ccc;"></div>
     <div class="clear" style="height: 7px;"></div>
     
     <div class="block"  style="height: 230; padding: 15px 0px; width: 100%;">
