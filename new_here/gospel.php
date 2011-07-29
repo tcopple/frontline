@@ -2,7 +2,7 @@
   include_once("../utilities.php"); 
   start(); 
 ?>
-<div id="page_content" class="grid_12 omega shadow">
+<div id="page_content" class=" shadow">
   <div id="text" >
     <h3 class="yellow bold">The Gospel</h3>
     <blockquote>"Now I would remind you, brothers, of the gospel I preached to you, 

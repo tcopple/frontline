@@ -12,13 +12,6 @@ function init() {
 }
 
 /**
- * Loads the Google Developers Event Calendar
- */
-function loadDeveloperCalendar() {
-  loadCalendarByAddress('developer-calendar@google.com');
-}
-
-/**
  * Adds a leading zero to a single-digit number.  Used for displaying dates.
  */
 function padNumber(num) {
@@ -100,7 +93,31 @@ function handleGDError(e) {
  *
  * @param {json} feedRoot is the root of the feed, containing all entries 
  */ 
+
 function listEvents(feedRoot) {
+  var entries = feedRoot.feed.getEntries();
+  $.each(entries, function(i, item) {
+    var calendar_event = $("<div class='event'></div>");
+
+    var times = item.getTimes();
+    var dte = times[0].getStartTime().getDate();
+    var date_header = null;
+    if (!times[0].getStartTime().isDateOnly()) {
+      var time = " @" + dte.getHours() + ":" + padNumber(dte.getMinutes());
+      date_header = $("<div class='date gray'>" + $.datepicker.formatDate("d MM yy", dte) + time + "</div>" );
+    } else {
+      date_header = $("<div class='date gray'>" + $.datepicker.formatDate("d MM yy", dte) + "</div>" );
+    }
+
+    var event_text = $("<div class='event_title'> <a href='" + item.getHtmlLink().getHref() + "'>" + item.getTitle().getText() + "</a></div>");  
+
+    calendar_event.append(date_header);
+    calendar_event.append(event_text);
+
+    calendar_event.appendTo($("#events"));
+  });
+}
+function listEvents2(feedRoot) {
   var entries = feedRoot.feed.getEntries();
   var eventDiv = document.getElementById('events');
   if (eventDiv.childNodes.length > 0) {

@@ -3,18 +3,16 @@
 }
 
 #content {
-  height: 392px;
+  height: 100%;
   padding: 5px 0px;
 }
 
 #content #videos {
   float: right;
-  position: relative;
   height: inherit;
-  display: inline;
   background: #000;
-  border: 1px solid #999;
-  overflow: none;
+  border: 1px solid #333;
+  overflow: hidden;
 }
 
 #content #videos video { 
@@ -25,15 +23,15 @@
 
 #content #promos_wrapper {
   height: inherit;
-  display: inline;
   float: left; 
   background: #111;
   background: rgba(1, 1, 1, 0.7);
-  border: 1px solid #999;
+  border: 1px solid #333;
 }
 
 #content #promos_wrapper #promos {
   padding: 0px 5px 15px 5px;
+  text-align: center;
 
 }
 
@@ -58,7 +56,7 @@
   -moz-border-radius: 30px;
   border-radius: 30px; 
   background: #444;
-  border: 1px solid #999;
+  border: 1px solid #333;
   padding: 2px 10px 2px 10px;
   font-weight: bolder;
   margin: 0 8px;
@@ -71,20 +69,49 @@
 
 #info .box {
   background: #111;
-  width: 280px;
+  width: 278px;
   float: left;
   display: inline;
-  height: 500px;
+  height: 250px;
+  border: 1px solid #333;
 }
 
 #info .box .feed {
   padding: 5%;
 }
 
-ul#tweets  {
-  width: 100%;
-  font-size: 1em;
-  display: block;
+.blog_post a {
+  color: #fff;
+}
+
+.blog_post { 
+  padding: 10px 0px;
+}
+
+.tweet { 
+  padding: 6px 0px;
+}
+
+.tweet_text {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.event { 
+  padding: 6px 0px;
+}
+
+.event a {
+  color: #fff;
+}
+
+.author {
+  font-size: .7em;
+}
+
+.date { 
+  font-size: .6em;
+  padding-bottom: 3px;
 }
 
 #footer {
@@ -102,10 +129,12 @@ ul#tweets  {
 
 .copyright {  
   display: inline;
+  text-align: right;
   float: right;
 }
 
 #page_content { 
+  width: 700px;
   border: 1px solid #999;
   display: block;
   min-height: 390px;
@@ -127,7 +156,6 @@ ul#tweets  {
 #page_content #text p {
   line-height: 125%;
 }
-
 
 .indent { 
   padding-left: 25px;

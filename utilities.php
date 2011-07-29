@@ -12,6 +12,7 @@ function start($include = "", $title = "frontline city church") {
     <link rel="stylesheet" type="text/css" href="/css/frontline.css">
     <link rel="stylesheet" type="text/css" href="/css/dropdown.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Shanti&v2' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui-1.8.11.custom.min.js"></script>
     <script type="text/javascript" src="/js/jquery.scriptureLink.js"></script>
@@ -34,7 +35,7 @@ function start($include = "", $title = "frontline city church") {
   <div class="container_16">
   <?php include_once("layouts/header.php"); ?>
   <div class="grid_16" id="content">
-    <div id="promos_wrapper" class="class_4 alpha shadow">
+    <div id="promos_wrapper" class="class_4 alpha">
       <div id="promos">
         <div><a href="/when_and_where/community.php"><img class="promo" src="/images/community.jpg"></img></a></div>
         <div><a href="/when_and_where/monthly.php"><img class="promo" src="/images/monthly.jpg"></img></a></div>

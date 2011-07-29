@@ -2,7 +2,7 @@
 include_once("../utilities.php"); 
 start(); 
 ?>
-<div id="page_content" class="grid_12 omega shadow">
+<div id="page_content" class=" shadow">
   <div id="text" >
     <h3 class="yellow bold">Who We Are</h3>
     Frontline City Church is a group of people who have been forgiven and changed by Jesus and live as missionaries in the greater New Haven area.  

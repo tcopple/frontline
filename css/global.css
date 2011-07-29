@@ -12,7 +12,7 @@ body {
 
   padding: 20px 0px 0px 0px;
   color: #fff;
-  font-family: "HelveticaNeue-Roman", "Helvetica 55 Roman", Helvetica, Arial, sans-serif;
+  font-family: 'Shanti', sans-serif;
   text-align: left;
 }
 
@@ -54,13 +54,13 @@ blockquote { padding: 5px 20px; font-style: italic;}
 
 .red { color: #c22e2e; }
 .yellow { color: #fece1f; }
+.gray { color: #999; }
 .scripture { color: #ccc; }
 
 input.text { 
   padding: 3px; 
   border: 1px solid #999999;     
 }
-
 
 a {
   color: #fece1f;
