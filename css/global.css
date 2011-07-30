@@ -25,6 +25,7 @@ body {
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 .middle { vertical-align: middle; }
+.hide { visibility: hidden; }
 .seperator { width: 10px; float: left; height: 1px; }
 .shadow { 
   -moz-box-shadow: 5px 5px 8px #000;

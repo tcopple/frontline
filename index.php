@@ -2,12 +2,19 @@
   include_once("utilities.php"); 
   start(
      "<script type=\"text/javascript\" src=\"http://www.google.com/jsapi\"></script>
-     <script type=\"text/javascript\" src=\"js/google_calendar.js\"></script>"
+      <script type=\"text/javascript\" src=\"js/google_calendar.js\"></script>
+      <script type=\"text/javascript\" src=\"js/slideshow.js\"></script>"
   ); 
 ?>
-<div id="videos" class="shadow ">
-  <iframe src="http://player.vimeo.com/video/26031409?title=0&amp;byline=0&amp;portrait=0" width="700" height="392" frameborder="0"></iframe>
-</div>
+  <div id="main" class="shadow ">
+    <!--iframe src="http://player.vimeo.com/video/26031409?title=0&amp;byline=0&amp;portrait=0" width="700" height="392" frameborder="0"></iframe>-->
+    <ul class='slideshow'>
+      <li><img src="/images/banner_blueprint.png"></img></li>
+      <li><img src="/images/banner_monthly.png"></img></li>
+      <li><img src="/images/banner_launch.png"></img></li>
+    </ul>
+    
+  </div>
 </div>
 
 <div class="clear" style="height: 25px;"></div>
