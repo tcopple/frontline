@@ -35,11 +35,11 @@ function start($include = "", $title = "frontline city church") {
   <div class="container_16">
   <?php include_once("layouts/header.php"); ?>
   <div class="grid_16" id="content">
-    <div id="promos_wrapper" class="class_4 alpha">
+    <div id="promos_wrapper" class="grid_4 alpha">
       <div id="promos">
-        <div><a href="/when_and_where/community.php"><img class="promo" src="/images/community.jpg"></img></a></div>
-        <div><a href="/when_and_where/monthly.php"><img class="promo" src="/images/monthly.jpg"></img></a></div>
-        <div><a href="/new_here/story.php"><img class="promo" src="/images/story.jpg"></img></a></div>
+        <div class="promo"><a href="/when_and_where/community.php"><img src="/images/promo_groups.png"></img></a></div>
+        <div class="promo"><a href="/when_and_where/monthly.php"><img src="/images/promo_gatherings.png"></img></a></div>
+        <div class="promo"><a href="/new_here/story.php"><img src="/images/promo_story.png"></img></a></div>
       </div>
       <div id="buttons">
         <a href="/when_and_where/monthly.php" class="button">Service Time</a>
