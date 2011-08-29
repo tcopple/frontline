@@ -20,7 +20,7 @@
       <li><a href="#">When & Where</a>
       <ul>
         <li><a href="/when_and_where/community.php">Community Groups</a></li>
-        <li><a href="/when_and_where/monthly.php">Monthly Gatherings</a></li>
+        <li><a href="/when_and_where/weekly.php">Weekly Gatherings</a></li>
         <li><a href="/when_and_where/calendar.php">Calendar</a></li>
       </ul>
       </li>
