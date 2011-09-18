@@ -5,7 +5,7 @@ start();
 
 <div id="page_content" class=" shadow">
   <div id="text" >
-    <h3 class="yellow bold">Monthly</h3>
+    <h3 class="yellow bold">Weekly</h3>
     <p>
       Starting September 18th, our weekly services begin Sunday at 10am at Co-op High School in downtown New Haven. Parking can be found on the on the street as meter services are free on Sundays. Childcare will be provided as all are welcome for for a message, worship and fellowship.
     </p>
