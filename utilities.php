@@ -38,7 +38,7 @@ function start($include = "", $title = "frontline city church") {
     <div id="promos_wrapper" class="grid_4 alpha">
       <div id="promos">
         <div class="promo"><a href="/when_and_where/community.php"><img src="/images/promo_groups.png"></img></a></div>
-        <div class="promo"><a href="/when_and_where/monthly.php"><img src="/images/promo_gatherings.png"></img></a></div>
+        <div class="promo"><a href="/when_and_where/weekly.php"><img src="/images/promo_gatherings.png"></img></a></div>
         <div class="promo"><a href="/new_here/story.php"><img src="/images/promo_story.png"></img></a></div>
       </div>
       <div id="buttons">
@@ -49,7 +49,7 @@ function start($include = "", $title = "frontline city church") {
 <?php
 }
 
-function stop() { ?> 
+function stop() { ?>
   <div class="clear" style="height: 5px;"></div>
   <?php include("layouts/footer.php") ?>
   <div class="clear" style="height: 15px;"></div>
