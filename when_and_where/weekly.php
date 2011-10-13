@@ -11,7 +11,7 @@ start();
     </p>
     <div class="clear" style="height: 7px;"></div>
     <div class="block left"  style="height: 230; padding: 15px 0px; width: 100%;">
-      September 18th, 2011 -10am <br>
+      Every Sunday @ 10am <br>
       Location: <a href="http://g.co/maps/jj24">New Haven Co-op High School</a><br>
       177 College St.<br>
       New Haven, CT 06511<br>
