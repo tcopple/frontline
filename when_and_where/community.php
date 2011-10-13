@@ -1,6 +1,6 @@
-<?php 
-include_once("../utilities.php"); 
-start(); 
+<?php
+include_once("../utilities.php");
+start();
 ?>
 
 <div id="page_content" class=" shadow">
@@ -23,15 +23,15 @@ start();
     <div class="clear" style="height: 25px;"></div>
     <div class="block text-right" >
       <div class="inline right ">
-        <img src="/images/small_group_kendricks.png"></img>
+        <img src="/images/small_group_jacobs.png"></img>
       </div>
       <div class="inline middle">
-        <h5>Justin & Chrisy Kendrick</h5>
-        <div>Wednesdays @ 7pm (16 Earl St., New Haven)</div>
-        <div style="height: 15px;"></div>
-        <div>Justin and Chrisy have two sons, Gabriel and Noah, and live in community with other Christians in New Haven. They are passionate about seeing people become disciples of Jesus.</div>
-        <div style="height: 15px;"></div>
-        <div>justin at frontlinecitychurch dot com</div>
+        <h5>Joe & Melissa Jacobs</h5>
+        <div>Wednesdays @ 7pm (22 Dayton St., New Haven)</div>
+        <div style="height: 10px;"></div>
+        <div>Joe & Melissa enjoy living within a community of believers in New Haven, and are deeply in love with Jesus. They both have experienced the powerful transformation of salvation in their lives, and desire to see others genuinely transformed to live freely and wholeheartedly for God as well.</div>
+        <div style="height: 10px;"></div>
+        <div>jacobs at frontlinecitychurch dot com</div>
       </div>
     </div>
     <div class="clear" style="height: 25px;"></div>
@@ -49,7 +49,23 @@ start();
       </div>
     </div>
     <div class="clear" style="height: 25px;"></div>
-
+    <div class="block text-right" >
+      <div class="inline right ">
+        <img src="/images/small_group_bollinger.png"></img>
+        <img src="/images/small_group_carver.png"></img>
+      </div>
+      <div class="inline middle">
+        <h5>Madison Bollinger & Jon Wisecarver</h5>
+        <div>Tuesdays @ 7pm (14 Pardee Pl. New Haven)</div>
+        <div style="height: 15px;"></div>
+        <div>
+          Both Madison and Jon live in community with other Christians in New Haven. Their hearts burn for this generation to know the depths of Christ and the freedom of life through Him. They are passionate about seeing people become disciples of Jesus and chase after Him in a way that will transform culture.
+        </div>
+        <div style="height: 15px;"></div>
+        <div>john at frontlinecitychurch dot com</div>
+        <div>madison at frontlinecitychurch dot com</div>
+      </div>
+    </div>
   </div>
 </div>
 <?php stop(); ?>
