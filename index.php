@@ -7,7 +7,10 @@
   );
 ?>
   <div id="main" class="shadow ">
-    <iframe src="http://player.vimeo.com/video/29271942?title=0&amp;byline=0&amp;portrait=0" width="700" height="392" frameborder="0"></iframe>
+    <ul class='slideshow'>
+      <li><img src="/images/banner_characterisking.png"></img></li>
+      <li><img src="/images/banner_community.png"></img></li>
+    </ul>
   </div>
 </div>
 

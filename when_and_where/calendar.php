@@ -1,8 +1,8 @@
 <?php
   include_once("../utilities.php");
   start(
-     "<script type=\"text/javascript\" src=\"http://www.google.com/jsapi\"></script>
-      <script type=\"text/javascript\" src=\"../js/google_calendar.js\"></script>"
+#     "<script type=\"text/javascript\" src=\"http://www.google.com/jsapi\"></script>
+#      <script type=\"text/javascript\" src=\"../js/google_calendar.js\"></script>"
   );
 ?>
 

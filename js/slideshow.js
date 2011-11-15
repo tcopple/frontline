@@ -1,5 +1,3 @@
-var slide = 1;
-var slides = 2;
 var slideshow_interval_id = null;
 
 function signal_slideshow() {
@@ -18,12 +16,8 @@ $(document).ready( function() {
 });
 
 function slideshow() {
-  $('div#main li:nth-child(' + slide + ')').fadeOut('slow', function() {
-
-    slide = slide + 1;
-    if (slide > slides)
-      slide = 1;
-
-    $('div#main li:nth-child(' + slide + ')').fadeIn('slow');
+  $('div#main li:first-child').fadeOut('slow', function() {
+    $(this).parent().append(this);
+    $(this).parent().children("li:first-child").fadeIn('slow');
   });
 };
