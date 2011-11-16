@@ -8,8 +8,8 @@
 ?>
   <div id="main" class="shadow ">
     <ul class='slideshow'>
-      <li><img src="/images/banner_characterisking.png"></img></li>
-      <li><img src="/images/banner_community.png"></img></li>
+      <li><img src="/images/banner_lovecamedown.jpg"></img></li>
+      <li><a href="/when_and_where/community.php"><img src="/images/banner_community.png"></img></a></li>
     </ul>
   </div>
 </div>
