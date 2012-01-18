@@ -62,7 +62,7 @@ start();
           Both Madison and Jon live in community with other Christians in New Haven. Their hearts burn for this generation to know the depths of Christ and the freedom of life through Him. They are passionate about seeing people become disciples of Jesus and chase after Him in a way that will transform culture.
         </div>
         <div style="height: 15px;"></div>
-        <div>john at frontlinecitychurch dot com</div>
+        <div>jon at frontlinecitychurch dot com</div>
         <div>madison at frontlinecitychurch dot com</div>
       </div>
     </div>
