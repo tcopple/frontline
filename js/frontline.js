@@ -1,5 +1,5 @@
 var twitter_handle = 'fl_citychurch';
-var tweets = 1;
+var tweets = 10;
 var tweet = 1;
 
 $(document).ready(function() {
@@ -26,18 +26,18 @@ function fetch_blog() {
 
         blog_post.appendTo("ul#blogs")
       });
-    }, 4);
+    }, 3);
 }
 
 function fetch_tweets(handle, count, page) {
   if(page == undefined)
     page = 1;
 
-  var url = "http://twitter.com/status/user_timeline/" + handle + ".json?count=" + count + "&page=" + page + "&callback=?";
+  var url ="https://api.twitter.com/statuses/user_timeline.json?include_entities=true&include_rts=true&exclude_replies=true&screen_name=" + handle + "&count=" + count + "&callback=?";
 
   var ret = new Array();
   $.getJSON(url,function(data) {
-    $.each(data, function(i, post) {
+   var post = data.shift();
       var tweet = $("<div class='tweet'></div>");
 
       var user = post.user.screen_name.toLowerCase();
@@ -49,12 +49,12 @@ function fetch_tweets(handle, count, page) {
       tweet.append(tweet_text);
 
       tweet.appendTo($("#tweets"));
-    })
-  });
+    });
+
 }
 
 function replace_urls(text) {
 var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-var a = text.replace(exp,"<a href='$1'>$1</a>"); 
+var a = text.replace(exp,"<a href='$1'>$1</a>");
 return a;
 }
