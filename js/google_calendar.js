@@ -26,23 +26,23 @@ function padNumber(num) {
  * argument and calls loadCalendar with the calendarUrl value.
  *
  * @param {string} calendarAddress is the email-style address for the calendar
- */ 
+ */
 function loadCalendarByAddress(calendarAddress) {
   var calendarUrl = 'https://www.google.com/calendar/feeds/' +
-                    calendarAddress + 
+                    calendarAddress +
                     '/public/full';
   loadCalendar(calendarUrl);
 }
 
 /**
  * Uses Google data JS client library to retrieve a calendar feed from the specified
- * URL.  The feed is controlled by several query parameters and a callback 
+ * URL.  The feed is controlled by several query parameters and a callback
  * function is called to process the feed results.
  *
  * @param {string} calendarUrl is the URL for a public calendar feed
- */  
+ */
 function loadCalendar(calendarUrl) {
-  var service = new 
+  var service = new
       google.gdata.calendar.CalendarService('gdata-js-client-samples-simple');
   var query = new google.gdata.calendar.CalendarEventQuery(calendarUrl);
   query.setOrderBy('starttime');
@@ -61,10 +61,10 @@ function loadCalendar(calendarUrl) {
  * a privileged environment using ClientLogin authentication, there may also
  * be an e.type attribute in some cases.
  *
- * @param {Error} e is an instance of an Error 
+ * @param {Error} e is an instance of an Error
  */
 function handleGDError(e) {
-  document.getElementById('jsSourceFinal').setAttribute('style', 
+  document.getElementById('jsSourceFinal').setAttribute('style',
       'display:none');
   if (e instanceof Error) {
     /* alert with the error line number, file and message */
@@ -75,7 +75,7 @@ function handleGDError(e) {
     if (e.cause) {
       var status = e.cause.status;
       var statusText = e.cause.statusText;
-      alert('Root cause: HTTP error ' + status + ' with status text of: ' + 
+      alert('Root cause: HTTP error ' + status + ' with status text of: ' +
             statusText);
     }
   } else {
@@ -84,22 +84,29 @@ function handleGDError(e) {
 }
 
 /**
- * Callback function for the Google data JS client library to call with a feed 
+ * Callback function for the Google data JS client library to call with a feed
  * of events retrieved.
  *
  * Creates an unordered list of events in a human-readable form.  This list of
  * events is added into a div called 'events'.  The title for the calendar is
  * placed in a div called 'calendarTitle'
  *
- * @param {json} feedRoot is the root of the feed, containing all entries 
- */ 
+ * @param {json} feedRoot is the root of the feed, containing all entries
+ */
 
 function listEvents(feedRoot) {
   var entries = feedRoot.feed.getEntries();
-  $.each(entries, function(i, item) {
+
+  var listed = 0;
+  for(var i = 0; i < entries.length && listed < 4; i++) {
+    var t = entries[i].getTitle().getText();
+    if(t.indexOf("Community Group") != -1) {
+      continue;
+    }
+
     var calendar_event = $("<div class='event'></div>");
 
-    var times = item.getTimes();
+    var times = entries[i].getTimes();
     var dte = times[0].getStartTime().getDate();
     var date_header = null;
     if (!times[0].getStartTime().isDateOnly()) {
@@ -109,62 +116,14 @@ function listEvents(feedRoot) {
       date_header = $("<div class='date gray'>" + $.datepicker.formatDate("d MM yy", dte) + "</div>" );
     }
 
-    var event_text = $("<div class='event_title'> <a href='" + item.getHtmlLink().getHref() + "'>" + item.getTitle().getText() + "</a></div>");  
+    var event_text = $("<div class='event_title'> <a href='" + entries[i].getHtmlLink().getHref() + "'>" + entries[i].getTitle().getText() + "</a></div>");
 
     calendar_event.append(date_header);
     calendar_event.append(event_text);
 
     calendar_event.appendTo($("#events"));
-  });
-}
-function listEvents2(feedRoot) {
-  var entries = feedRoot.feed.getEntries();
-  var eventDiv = document.getElementById('events');
-  if (eventDiv.childNodes.length > 0) {
-    eventDiv.removeChild(eventDiv.childNodes[0]);
-  }	  
-  /* create a new unordered list */
-  var ul = document.createElement('ul');
-  /* set the calendarTitle div with the name of the calendar */
-
-  /* loop through each event in the feed */
-  var len = entries.length;
-  for (var i = 0; i < len; i++) {
-    var entry = entries[i];
-    var title = entry.getTitle().getText();
-    var startDateTime = null;
-    var startJSDate = null;
-    var times = entry.getTimes();
-    if (times.length > 0) {
-      startDateTime = times[0].getStartTime();
-      startJSDate = startDateTime.getDate();
-    }
-    var entryLinkHref = null;
-    if (entry.getHtmlLink() != null) {
-      entryLinkHref = entry.getHtmlLink().getHref();
-    }
-    var dateString = (startJSDate.getMonth() + 1) + "/" + startJSDate.getDate();
-    if (!startDateTime.isDateOnly()) {
-      dateString += " " + startJSDate.getHours() + ":" + 
-          padNumber(startJSDate.getMinutes());
-    }
-    var li = document.createElement('li');
-
-    /* if we have a link to the event, create an 'a' element */
-    if (entryLinkHref != null) {
-      entryLink = document.createElement('a');
-      entryLink.setAttribute('href', entryLinkHref);
-      entryLink.appendChild(document.createTextNode(title));
-      li.appendChild(entryLink);
-      li.appendChild(document.createTextNode(' - ' + dateString));
-    } else {
-      li.appendChild(document.createTextNode(title + ' - ' + dateString));
-    }	    
-
-    /* append the list item onto the unordered list */
-    ul.appendChild(li);
-  }
-  eventDiv.appendChild(ul);
+    listed += 1
+  };
 }
 
 google.setOnLoadCallback(init);
