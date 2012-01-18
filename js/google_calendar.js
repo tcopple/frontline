@@ -49,7 +49,7 @@ function loadCalendar(calendarUrl) {
   query.setSortOrder('ascending');
   query.setFutureEvents(true);
   query.setSingleEvents(true);
-  query.setMaxResults(10);
+  query.setMaxResults(50);
 
   service.getEventsFeed(query, listEvents, handleGDError);
 }
@@ -100,6 +100,7 @@ function listEvents(feedRoot) {
   var listed = 0;
   for(var i = 0; i < entries.length && listed < 4; i++) {
     var t = entries[i].getTitle().getText();
+
     if(t.indexOf("Community Group") != -1) {
       continue;
     }
