@@ -21,7 +21,7 @@
       <ul>
         <li><a href="/when_and_where/community.php">Community Groups</a></li>
         <li><a href="/when_and_where/weekly.php">Weekly Gatherings</a></li>
-        <li><a href="/when_and_where/calendar.php">Calendar</a></li>
+        <li><a href="https://www.google.com/calendar/embed?src=frontlinecitychurch%40gmail.com&ctz=America/New_York">Calendar</a></li>
       </ul>
       </li>
       <li><a href="#">Media</a>
