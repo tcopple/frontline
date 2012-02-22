@@ -11,7 +11,7 @@
         P.O. Box #3123<br>
         New Haven, CT 06515<br>  
         203-907-7922<br><br>
-        email: info at frontlinecitychurch dot com
+        email: info at ourcitychurch dot org
       </div>
     </p>
   </div>

@@ -1,4 +1,4 @@
-var twitter_handle = 'fl_citychurch';
+var twitter_handle = 'our_citychurch';
 var tweets = 10;
 var tweet = 1;
 

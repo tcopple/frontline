@@ -8,7 +8,7 @@
     </div>
     <div class="grid_4"></div>
     <div class="copyright grid_8 omega" >
-      Copyright Frontline City Church 2011
+      Copyright City Church 2011
       P.O.Box 3123, New Haven, CT 06515
     </div>
   </div>

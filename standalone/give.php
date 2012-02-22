@@ -18,7 +18,7 @@
         Click to "continue" on the left-hand side of the page where it says "Don't have a PayPal Account?". 
         This will allow you to give without needing to sign into PayPal.
         <br><br>
-        Thank you so much for giving towards the mission of Frontline City Church!
+        Thank you so much for giving towards the mission of City Church!
         <br><br>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_s-xclick">

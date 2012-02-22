@@ -5,7 +5,7 @@
 <div id="page_content" class=" shadow">
   <div id="text" >
     <h3 class="yellow bold">What We Believe</h3>
-    Frontline City Church is a Christian church.  We follow Jesus, teach the Bible, and seek to honor God in all things.  
+    City Church is a Christian church.  We follow Jesus, teach the Bible, and seek to honor God in all things.  
     <br>
     <br>
 

@@ -1,5 +1,5 @@
 <?php
-function start($include = "", $title = "frontline city church") {
+function start($include = "", $title = "city church") {
   chdir(($_SERVER['DOCUMENT_ROOT']));
 ?>
 <!DOCTYPE HTML>
