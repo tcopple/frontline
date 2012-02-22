@@ -1,7 +1,7 @@
 <div id="header" class="grid_16">
   <div class="grid_5 alpha logo">
     <a href="http://www.ourcitychurch.org">
-      <img width="100%" src="/images/websitelogo.png"></img>
+      <img width="100%" src="/images/logo.png"></img>
     </a>
   </div>
  <!-- <div id="nav" class="grid_11 omega shadow">-->
