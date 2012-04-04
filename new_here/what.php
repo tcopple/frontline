@@ -29,7 +29,7 @@
 
     <h5 class="red bold">The Godhead</h5>
     <p>
-    God has existed in relationship with Himself for all eternity. He exists as one substance in three persons: the Father, the Son and the Holy Spirit. Although each member of the Trinity serves different functions, they each possess equal power and authority. 
+    God has existed in relationship with Himself for all eternity. He is a triune God, one God revealing himself in Father, Son and Holy Spirit. Although each member of the Trinity serves different functions, they each possess equal power and authority. 
     <span class="inline6 italic">
       <span class="scripture">Deuteronomy 6:4;</span> 
       <span class="scripture">Isaiah 61:1;</span> 
@@ -48,7 +48,7 @@
 
     <h5 class="red bold">God the Father</h5>
     <p>
-    God is great: He is all powerful, all knowing, ever present, unchanging, completely worthy of our trust, and He is holy. It is in Him that we live, move, and exist. God is good: He is our Father. He is loving, compassionate, and faithful to His people and His promises. 
+    God is great: He is all powerful, all knowing, ever present, unchanging, completely worthy of our trust, and He is holy. It is in Him that we live, move, and exist. God is good: He is our Father. He is loving, compassionate, and faithful to His people and His promises.
     <span class="inline6 italic">
       <span class="scripture">Exodus 3:14;</span>
       <span class="scripture">Numbers 23:19;</span> 
@@ -64,7 +64,7 @@
 
     <h5 class="red bold">God the Son</h5>
     <p>
-    Jesus Christ is completely human, but at the same time completely God. He is the only plan for bringing people who are enemies of God back into a right relationship with God. He lived a perfect life so that He could be a substitution for us in satisfying God's demands for perfection. He defeated death in His resurrection so that we could have life. 
+    Jesus Christ is completely human, but at the same time completely God. He is the only plan for bringing people who are enemies of God back into a right relationship with God. He lived a perfect life so that He could be a substitution for us in satisfying God's demands for perfection. He defeated death in His resurrection so that we could have life.
     <span class="inline6 italic">
       <span class="scripture">Isaiah 7:14; 7:53;</span> 
       <span class="scripture">Matthew 1:18-23; 3:17; 8:29; 14:33; 16:16; 28:5-6;</span> 
@@ -84,7 +84,7 @@
 
     <h5 class="red bold">God the Holy Spirit</h5>
     <p>
-    His presence assures us of our relationship with Christ. He guides believers into all truth and exalts Christ. He convicts people of their sin, God's righteousness, and the coming judgment. He comforts us, gives us spiritual gifts, and makes us more like Christ. 
+    The Holy Spirit is fully God, the third person of the trinity, and assures us of our relationship with Christ. He guides believers into all truth and exalts Christ. He convicts people of their sin, God's righteousness, and the coming judgment. He comforts us, gives us spiritual gifts, and makes us more like Christ.
     <span class="inline6 italic">
       <span class="scripture">Psalms 51:11; 139:7;</span> 
       <span class="scripture">Genesis 1:2;</span> 
@@ -105,7 +105,7 @@
 
     <h5 class="red bold">Heaven and Hell</h5>
     <p>
-    Man was created to exist forever. He will either exist eternally separated from God by sin or in union with God through forgiveness and salvation. To be eternally separated from God is Hell. To be eternally in union with Him is eternal life. Heaven and Hell are places of eternal existence. 
+    Heaven and Hell are places of eternal existence. Man was created to exist forever. He will either exist eternally separated from God by sin or in union with God through forgiveness and salvation through faith in the finished work of Christ on the cross. To be eternally separated from God is Hell. To be eternally in union with Him is eternal life.
     <span class="inline6 italic">
       <span class="scripture">John 3:16; 3:36;</span> 
       <span class="scripture">Romans 6:23;</span> 
@@ -134,7 +134,7 @@
 
     <h5 class="red bold">Salvation</h5>
     <p>
-    The blood of Jesus Christ, shed on the cross, provides the only way of salvation through the forgiveness of sin. Salvation occurs when people place their faith in the death and resurrection of Christ as sufficient payment for their sin. Salvation is a gift from God, and it cannot be earned through our own efforts.  The victorious work of Jesus on the cross provides freedom from sin, lies, sickness, torment and all the power of the devil.  
+    The blood of Jesus Christ, shed on the cross, provides the only way of salvation through the forgiveness of sin. Salvation occurs when people place their faith in the death and resurrection of Christ as sufficient payment for their sin. Salvation is a gift from God, and it cannot be earned through our own efforts. The victorious work of Jesus on the cross provides freedom from sin, lies, sickness, torment and all the power of the devil.  
 
     <span class="inline6 italic">
       <span class="scripture">Isaiah 1:18; 53:5-6; 55:7;</span> 
@@ -156,7 +156,7 @@
 
     <h5 class="red bold">The Church</h5>
     <p>
-    The global Church is a living organism made up of all born again followers of Christ from every age, race, and nation.  The local church is a regional community of baptized believers unified through faith in Christ. It is committed to the teachings of Christ, to obeying all of His commands, and it seeks to bring the gospel to the world. The Church works together in love and unity, intent on the ultimate purpose of glorifying Christ. 
+    The global Church is a living organism made up of all born again followers of Christ from every age, race, and nation. The local church is a regional community of baptized believers unified through faith in Christ. It is committed to the teachings of Christ, to obeying all of His commands, and it seeks to bring the gospel to the world. The Church works together in love and unity, intent on the ultimate purpose of glorifying Christ. 
     <span class="inline6 italic">
       <span class="scripture">Matthew 16:18-19; 18:15-20;</span> 
       <span class="scripture">Acts 2:41-47; 5:11-14; 13:1-3; 14:23; 16:5; 20:28;</span> 

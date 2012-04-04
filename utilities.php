@@ -42,8 +42,8 @@ function start($include = "", $title = "city church") {
         <div class="promo"><a href="/new_here/story.php"><img src="/images/promo_story.png"></img></a></div>
       </div>
       <div id="buttons">
-        <a href="when_and_where/weekly.php" class="button">Service Time</a>
-        <a href="standalone/contact.php" class="button">Contact Us</a>
+        <a href="/when_and_where/weekly.php" class="button">Service Time</a>
+        <a href="/standalone/contact.php" class="button">Contact Us</a>
       </div>
     </div>
 <?php

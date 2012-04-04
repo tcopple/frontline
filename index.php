@@ -8,7 +8,10 @@
 ?>
   <div id="main" class="shadow ">
     <ul class='slideshow'>
-      <li><img src="/images/banner_eli.jpg"></img></a></li>
+      <li><a href="http://citychurch-encounter.eventbrite.com/"><img src="/images/encounterWEBslide.jpg"></img></a></li>
+      <li><img src="/images/banner_sex.jpg"></img></a></li>
+      <li><img src="/images/goats.jpg"></img></a></li>
+      <li><img src="/images/afterthis.jpg"></img></a></li>
       <li><a href="/when_and_where/community.php"><img src="/images/banner_community.png"></img></a></li>
     </ul>
   </div>
@@ -27,7 +30,7 @@
     <div style="width:50px; float: left;">&nbsp</div>
     <div class="box shadow">
       <div class="feed">
-        <h4 class="yellow"><a href="http://www.twitter.com/fl_citychurch">twitter</a></h4>
+        <h4 class="yellow"><a href="http://www.twitter.com/our_citychurch">twitter</a></h4>
         <ul id="tweets">
         </ul>
       </div>

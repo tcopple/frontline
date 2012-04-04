@@ -12,9 +12,9 @@
         <li><a href="/new_here/welcome.php">Welcome</a></li>
         <li><a href="/new_here/story.php">Our Story</a></li>
         <li><a href="/new_here/gospel.php">The Gospel</a></li>
-        <li><a href="/new_here/who.php">Who We Are</a></li>
         <li><a href="/new_here/what.php">What We Believe</a></li>
         <li><a href="/new_here/values.php">What We Value</a></li>
+        <li><a href="/new_here/government.php">Church Structure</a></li>
       </ul>
       </li>
       <li><a href="#">When & Where</a>
@@ -28,6 +28,7 @@
       <ul>
         <li><a href="http://www.vimeo.com/user6107401/videos">Videos</a></li>
         <li><a href="http://itunes.apple.com/us/podcast/frontline-city-church/id416154894?ign-mpt=uo%3D4">Podcast</a></li>
+        <li><a href="/standalone/music.php">Worship</a></li>
       </ul>
       </li>
       <li><a href="/standalone/give.php">Give</a></li>

@@ -45,7 +45,7 @@ start();
         <div style="height: 15px;"></div>
         <div>Matt & Kate have a daughter, Lily, and  live in a community of believers in New Haven. They  have  a passion  to see authentic disciples of Christ be raised up in this region.</div>
         <div style="height: 15px;"></div>
-        <div>cheeches at ourcitychurch dot org</div>
+        <div>deciccio at ourcitychurch dot org</div>
       </div>
     </div>
     <div class="clear" style="height: 25px;"></div>
@@ -95,6 +95,9 @@ start();
         <div>
           Tyler & Emily are siblings from Texas interested in walking in transparency, with a faith that leads to the praise of their Creator.
         </div>
+        <div style="height: 15px;"></div>
+        <div>tyler at ourcitychurch dot org</div>
+        <div>emily at ourcitychurch dot org</div>
       </div>
     </div>
   </div>
